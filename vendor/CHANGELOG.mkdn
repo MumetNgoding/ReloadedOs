@@ -1,0 +1,329 @@
+
+Resurrection Remix Q Ver 8.5.7 Changelog
+
+
+====================
+     08-12-2020
+====================
+
+
+   * android
+5c568a3 Update readme
+71bfc52 Update ReadMe
+6aea09b Bring up RR Q
+
+   * frameworks/base
+003076657ab Allow tapping battery icon in header to go to Power usage summary
+9e185869c95 DozeTriggers: Ensure we pass double tap as gesture
+c18fab57baf Lockscreen Shortcuts: Change Bg to full transparent
+a8a1bb5b619 Use new gradient dialog also for recovery/factory reset action
+6a8cbaab282 Get the reboot menus to follow power menu animations previously merged
+f426d025471 Redesign lockscreen bottom shortcuts [1/2]
+72eb561e519 Navigations: Remove double vibration tick on back gesture
+
+   * lineage/contributors-cloud-generator
+a264670 Fix rebase derp
+d6bbd9f catch potential nullpointer exception in cleanup
+6f86ede Allow authenticated gerrit API calls
+5457946 Accomodate larger gaps in _account_id
+030dfe1 Bump DEFAULT_SIZE to 1992
+
+   * packages/apps/CustomDoze
+c3a82c4 Dont confuse the noobs. They don't know what it means
+
+   * packages/apps/Settings
+ffa2914ff9 Add violet to official devices (#1146)
+8d94ea8111 Add Redmi Note 4 (#1132)
+a622352bf3 Settings : Add X00TD to official list (#1150)
+4d29619904 Add Redmi Note 7 device maintainer (#1149)
+67f8b6f76e Add Samsung Exynos 9810 maintainer (#1148)
+994a418472 Add Redmi K20 Pro/Mi 9T Pro Maintainer String (#1136)
+e22f3854b0 Add Riva to official list (#1140)
+7f9bf5a965 Add Redmi 5 Plus/Redmi Note 5 (vince) Maintainer (#1145)
+2495f35433 Add Xiaomi Redmi Note 5 Pro Maintainer (#1142)
+6edc6c48fd Add Redmi Note 8/8T device maintainer (#1134)
+bcc168a7c6 RR: Bump to 8.5.7 (first public release)
+2a90032b61 RRtools-Redesign bottom shortcuts[2/2]
+080910b14e Add ScrollView to gesture options dialog
+4a0f2d4dec Settings: Final roundup before public release
+f4e3cf0ffe Update to 8.5.6 [1/2]
+f03c325e41 Pulse: Default to fading blocks [1/2]
+d7a4c20fc5 Add Restart UI dialog when chosing brightness slider for QQS
+26f0d2a82b Allow user to disable night light on FOD [2/2]
+b23d82a42b Optionally show Expand indicator [2/2]
+3c6c4067bb Settings: update some defaults and fix gesture settings layout
+67f94d5075 Settings: allow changing navbar handle thickness [2/2]
+f756248b31 Seperate color for keyguard charging indicator [2/2]
+ad3487dd39 Hide Power menu assist action for now
+1eaa225ffc Qs Header clock font style, size and color [2/2]
+79c2922dd1 Add Media next and previous actions to navbar [2/2]
+9f686c1270 Add network traffic font style [2/2]
+5ea420a0d7 Add Configurable sensor block package [2/2]
+4bfe5d2ad6 Make power menu Assist actions toggleable [2/2]
+a3e378540b Add partial screenshot action to nav buttons /edge gestures
+7ba7d74dda {SQAUSHED}Pimp out the power menu [2/2]
+668e0b68c2 Add new button settings animation
+19976b3522 Add Headsup media option [2/2]
+3b1b771fcf {SQAUSHED} Add back all hardware and action button customizations
+73d44038c3 Option to tint tiles to RGB in RGB mode [2/2]
+b843da340c Update Volte icons [2/2]
+72ee8ad739 Allow setting smaller lockscreen sizes [2/2]
+fca347473b Enable qs primary icon only if custom qs themes enabled
+a0984fb81e Disable qs gradient tint for tiles if gradient enabled
+afbd502333 Add volte icon styles [2/2]
+691012e428 Optional gradient tint for tiles [2/2]
+dd21b3c0d0 Fix color settings summaries
+6684057df7 Add qs themes [2/2]
+9b678e7493 Add Restart UI to QQs brightness slider
+a72dcdda8b MobileNetworkActivity: fix bottom nav gravity
+99a0d8cbc9 RR tools:Update some dashboard animations and sizes
+b6b022f9ca RR tools: Move Qs tile style to themes
+df984b5e33 Merge tag 'android-10.0.0_r41' Android 10.0.0 Release 41 (QQ3A.200805.001)
+0ce26564dd Power menu background filter [2/2]
+c37eea7d94 RR tools: Final wire up of animations
+031a4aeb13 RR tools: Use dummy categories to make it look nicer with animations
+fd5e70e68c Settings Spacer styles [2/2]
+c2c82946bc Update some default values and units
+327aacea19 Statusbar weather font style, color and size [2/2]
+31f03dbd8e Settings: Update some lottie animations
+7b4b4434a9 Optional animations and preview fragments on RR tools [2/3]
+a5b00a9d30 Add More fonts and loitte animations[2/2]
+0c0f1f06d1 Keyguard: Forward port lockscreen quick unlock (2/2)
+59d492cdb3 fixup! BasebandVersionPreferenceController: Trim baseband if needed
+938ac1a738 Hardcorde: Header provider summary
+cd26762f06 Doze settings & TimeInState [2/2]
+52f5524b70 Settings: Add weather location [2/2]
+aeb50dd804 Implement Aggressive Battery [2/2]
+057af3548a RR tools: Add missing tints to a few icons
+a92bdcb2be Update Fab string
+99a0e4c990 Move Charcoal Black to theme overlay [1/2]
+8b8220cd70 Move Night mode settings to Themes
+f981b8de35 RR tools: convert Fab Accent shortcut to Themes
+5aa3266957 RR tools: Re-configure themes fragment
+bba024716e Add GVM adjustment [2/2]
+05a4275ba1 Remove Translucent notifications on lockscreen
+f924b28dee Force expand notifications [2/2]
+1a11b968ed Qs HEader themes [3/3] Signed-off-by: Varun Date <date.varun123@gmail.com>
+d5909e3df8 RR tools: Add pixel navbar Animation toggle [1/2]
+05c2c47211 Add a way to get themes from system [2/2]
+22f49a78aa Add Themes Fragment [3/3]
+4e71487c66 Update toast text color [2/2]
+867e4bfc5b Add option to show battery bar in Keyguard Indication [2/2]
+015b79f0da default toast text to white [2/2]
+a00c38dd5f Allow setting same color to gradient and accent
+2d4d1ec434 Toast colors [2/2]
+30c26ed538 Add activity for doze settings
+da5c1c0455 RRtools: Update an icon
+876bd23cba Qs header battery bar [2/2]
+e91291e06b Revert "Settings: Add a RemotePreference for device-specific doze settings"
+ef5a335350 Qs footer options [2/2]
+16fda143ba Add preference to pick image from storage
+97136aa038 Make header image height configurable [2/2]
+92a7ac1723 Improve Spacer
+c96adef7c1 BatteryHealth: Make it optional
+23bcbd34a2 BatteryHealth: show Charge Cycles Completed
+75afd6213e BatteryHealth: make resources overlayable
+37b74aed3f Settings: Add BatteryHealth section
+50b4f3d842 For now disable oneui actionbar for submenus
+06e67519f4 OneUI-like settings actionbar [1/2]
+97b363b9c3 Add battery bar gradient option [2/2]
+3eabc4bfa5 Change default gradient accent [2/2]
+62cd8e8ae9 Add back preference of selecting rr tools style
+c88872327f Add lock clock type clock options [2/2]
+a90a1bcc2b Settings: Fix inconsistencies in some options change some default values too
+cb97153a2d FIx build after new additions [2/2]
+ba3e9d951d Gradient shit switch [2/2]
+59e9d4d8d3 {SQUASHED} Add back all color, font and size options [2/2]
+d1250e8f2c {SQUASHED}Allow to quickly open Running Services from QS panel [2/2]
+26e394fd81 Double tap to trigger doze [2/2]
+18f6620f05 Settings: Breathing Sms , Missed call Voice mail [5/5]
+67de794688 Gesture Anywhere [2/3]
+1fb1141991 Implement Quick Qs brightness slider [3/3]
+923e55ad4c Accentpicker: disable reset button
+db30ca2eec ColorPicker: Hide color preview and reset button when the preference is disabled
+a888b441c4 ColorPickerPreference: Disable dividers by default
+d6df09f95e ColorPickerPreference: Use material design layout
+5235f42a55 ColorPickerPreference: Add attrs to show/hide reset and preview icons
+c35f1c73f5 Color picker: cleanup code
+6f94c1294c Colorpicker: allow to use it with xml calls only and use android:defaultValue
+0243707be7 Add Accent picker to RR tools fab menu
+3c29166b28 RR tools: Add Color Settings as an activity
+958c482115 Give Accent picker its own fragment
+2b6fabe3cc RR tools: Fix RGB picker FC
+4e44d807d0 Make ringer button in volume panel optional [2/2]
+13440948ec Add Accent picker [2/2]
+40a1483c54 More pressed icon states [2/2]
+c0eaa25f7b Hide smart replies [2/2]
+946a806c20 Settings: Add OnePlus dashboard icons
+a07e60b48b Settings Dashboard Icons : get Random Color for dashboard icons [1/2]
+59ab49fd58 Flashlight call: we use silent mode not DND
+d5c05235a1 RR tools: Allow user to hide background black gradient in quick statusbar [2/2]
+1d015c11ed Rounded Coner settings: Exchange some drawables
+07787c7a51 Settings: IOS clipboard toogle [2/2]
+7c1ad3a32c ClockSettings : Disable date settings if date not showing
+fd3baa54fc OOS dismisall button color customizations [2/2]
+2c8a6855d8 Optional screenshot type [2/2]
+5bd7d698b5 Fix! back gesture haptic toggle. AGAIN!
+3c1c2fc6ff Add Ambient display battery toggle [2/2]
+b49db9bf9d RR tools: More categorizations
+ccd6c6ce7c Settings: Fix some consistencies
+da74a36498 Separate config for tap to sleep on lockscreen [2/2]
+ef75c597f3 Notch City [2/3]
+ca4c64c6e7 Signature spoofing toggle [2/2]
+9104ee18f4 Remove high touch and prox wake settings from search if not supported
+d6048ef1b7 Add toggle for navbar
+7739e9ac63 ClockSettings: Fix custom clock/date format
+c541863645 RR tools:Increase limit of rgb qs animation time
+16ebec5483 Power menu screenshot delay [2/2]
+2218edfe1a RR tools:Add an activity for pulse settings for Qs tile
+d9cc4b860c Settings: Move volume panel left to RR tools [1/2]
+c0e8b6a2fc Settings: add icons for privacy settings
+a643f7eee2 Option to vibrate on Notification Panel PullDown [2/2]
+a7fa52669e PulseSettings: Fix more defaults
+ecf952a71b PulseSettings: Fix search
+63d2d41c76 RR tools:Update pulse cats and icons
+23841b88e4 Update some default values for pulse
+3814c037a1 Hide Pulse if navbar disabled
+f5ca538ec7 Lockscreen timeout [2/2]
+87f7bab662 Add Pulse Settings gfx audio visualizer [4/4]
+721a826d31 Force black screen on display cutout [2/2]
+427710b667 Add more charging animations [2/2]
+4a81f49f6a Add switch for notif counter [2/2]
+db17c86b80 Add more Qs styles [2/3]
+e206ebd2d0 RR tools:Update ticker mode prefs if ticker disabled
+cfa77d36a4 Bring back ticker for music ticker and Android 10 fixes
+920849de25 Phone ringtone setting for Multi SIM device
+b66f5b26c0 Settings: Allow to hide AOD content while pulsing for notification [2/2]
+271ae21c14 Strings: Update doze brightness info string
+48b9ec0851 Add toggle to tint inactive QS tiles and titles [2/2]
+1b37068387  Expand disco mode to Qs tile labels [2/2]
+2a9e33dc05 Settings: Make disco mode animation transition duration user configurable [2/2]
+34a9d06d2e Settings: Allow to show daily data usage [2/2]
+5b82a9a79f Add Qs Disco mode [2/2]
+4d96436170 Network traffic Rework [SQUASHED]
+6f7ded236e Settings: Fix fallback summary for power_button_instantly_locks preference
+be37ebca4d Settings: Bring back on/off toggle for physical SIMs
+45ff13cec1 Settings: Add support for per app network isolation
+70d78ae8aa Settings: Notification log: Increase historical notifications to 100
+be58d65f77 Settings: Do not allow disabling the default keyboard
+019bf04c3e Settings: import airbnb-lottie
+166d34f0a1 Settings: panels: Fix data usage display on mobile panel
+542d51bc5a Settings: Lottie Animations
+f656a31648 Add switch to select SBC HD by default [3/3]
+dd57aca03e Add option to tint QS tiles to accent [2/2]
+10049a6323 Force pulse and doze brightness [2/2]
+1fd377ea2e Settings: Switch styles [4/4]
+e9b3711817 Revert "A2DP codec priority: Rewrite using BT controller"
+677aa080d5 Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
+18733ebdc7 A2DP codec priority: Rewrite using BT controller
+3f69c73e54 A2DP codec priority [3a/3]
+4bc559e653 A2DP codec priority [2/3]
+d8378fc13f VolumePanel:Disable notif volume panel if link ringtone and notif enabled
+5f7565acad BT: Use translated a2dp codec strings
+33d4f203d2 Revert "Settings: Fix IndexOutOfBound error on bt codec selection"
+d7783f7eab codec support for DevUI am: f915bd9438
+58b277877d BT Settings: Adding aptX Adaptive codec entry in Settings
+512058fea8 Bluetooth-TWS: UI updates based on profile connection.
+9c32827df4 Fix build error
+90726ca77e Bluetooth-TWS: Filter TWS devices
+b754eefd1b Bluetooth: Create new catogory for earbuds
+1b8e28114a Settings: FODAnimation: Default to OP ripple animation [2/2]
+e602fac78c Bump RR version [2/2]
+2cf3a2b4fe Add invisible fod icon [2/2]
+75c26973da Settings: AnimationScale: Fix force close when not using english
+b2ba8b130f Revert "Remove weather display on Doze option"
+6028377b3d Bump RR version [2/2]
+cd17f6911d Settings: Convert AnimationScalePreference to CustomDialogPreferenceCompat
+7ccff306d6 Add IntervalSeekbar
+fb39ab8702 Settings: Move custom DP settings under display submenu
+f3239f2a2e Settings: Enable FeatureFlags on "user" builds too
+93fa92a3fb Settings: IS_DEBUGGABLE -> IS_ENG
+1cf661c488 QS dev tiles: Don't set them to active area
+f9f06ae09e DevelopmentSettings: Disable automatic updates
+ffe8fc416b Remove feedback and bug report stuff
+4a91db1506 Remove the Automatic ota check option but be sure it's disabled
+10706b8257 Settings: Use seekbar to allow setting arbitrary animation values
+7594c8e0a1 QS header datausage: add ability to show daily/monthly data usage [2/2]
+d2efbe51dc RR tools: Add option for random colors on every light [2/2]
+44b098da15 Bump RR version 8.3.1 [2/2]
+eb75f81b79 RR tools:Disable Slim recents option if 3 Button Navbar is not enabled
+229f03496d EdgeLighting:Add option for Random Colors [2/2]
+badbc95330 Fix back gesture arrow setting
+f477a21e63 Remove app sidebar call from slim recents frag
+3f6749cdcd Remove slim recent app side bar
+1389e97804 Bump RR version [2/2]
+2069f0cbdd Settings: Fix IndexOutOfBound error on bt codec selection
+80daf607f5 Merge tag 'android-10.0.0_r37' into Q
+2833d1998c Settings: Add notification log to search index
+19d7e3e328 Settings: Add notification log to 'App notifications' menu
+e965fda1fd Fix NPE if default supervisor is not defined
+ea5a368503 Update RR tools nav layout
+f0771f406e Fix Qs battery percent switch not sticking
+70a3983600 Settings: Improve gesture navigation handle length [2/2]
+c3a50860b9 Settings: Make IME button space optional [2/2]
+3894f2bad4 Settings: Fix navigation handle length seekbar theme
+9ef65b7819 Settings: allow for customizing the length of the navigation handle [2/2]
+f385a040f8 Revert "Settings: allow for customizing the length of the navigation handle [2/2]"
+694219a453 RR tools: Extend viewpager fix to Navigation settings
+485e41b504 rr_strings: Fix a typo
+a6a0edc262 RR tools: Add a second warning before resetting settings
+259e8a98ad Remove weather display on Doze option its always visible now
+0b2bdd0d10 Keyguard weather style [1/2]
+2734a208e4 Revert "Remove some previews on tabs layout"
+9856370489 Fix RR tabs overlap glitch
+c96dd485f9 Add Edge Lighting Blend color options [2/2]
+ecb051092e rr_strings: Add weather config summary
+379d6a49c1 Allow edge lighting on AOD [2/2]
+ff78c7e6ae Give doze its own Frag
+825c31af96 Settings: Add setting for clamp min auto screen brightness [2/2]
+cf6e9e0c45 Separate pulse and brightness values for AOD [2/2]
+df83cf7153 Settings: simplify gesture navbar toggle
+55b3a153a7 Allow to hide navigation bar gesture completely [2/2]
+2bf73e50c0 Revert "Settings: Hide pill in full gestural nav mode [2/3]"
+b95496346f Revert "Settings: Move the hide pill toggle to gesture settings dialog"
+cd013889e3 Fix Longshot with shutter sound [2/2]
+0b3bfb5991 Settings: Battery: Redesign BatteryMeterView
+4403998c7d Fixes ApnEditor not restoring previous UI
+a613540a8c Fix volume slider color is not correct
+c84db64b33 translate="false" -> translatable="false"
+ce23aebabf LanguageAndInputSettings: Hide touch hovering from search if needed
+e71c7fc8e9 Automatic translation import
+5f21113773 Automatic translation import
+586e60a147 Fix accidentaly removed RestartSystemUI on R style headers
+4d38c9c34d RR tools: Add missing layout for Toast Settings
+c1e1820832 Improve Tabs theme
+76fd297886 Remove some previews on tabs layout
+1e083be37c Hide RR tools tab strip underline
+98fb1c9a20 Disable transparent Header pref if Custom Header Enabled
+1d83cbc194 RR tools> Move some previews on top
+82ab0326c7 Beautify RR Settings even more [1/2]
+0cb26de777 Improve RR tools previews
+39ce2038c7 Add Summaries to all Navigation settings RR tools
+1ad031fda2 Move Header transparency settings to RR tools [2/2]
+0cedfe9283 Edge lighting deserves its own Fragment
+52ca3c6e5b Add Edge lighting style [2/2]
+e7fe1b4ebd Bump RR version to 8.2.2
+86aa0578d6 Add preference for maintainer in about device
+75320e83e1 Remove KIll app back button for now
+9d21e12334 Add Qs icon styles [3/3]
+56e3ab1ce6 Settings: Fix RR tool shortcut tint
+8bba6127d0 RR tools: Remove AOD charge setting if device does not support AOD
+9fa7553627 Disable ambient wake gesutres if always on enabled
+a75b0a03b4 Settings: Match shortcut colors with settings icon
+e59e415d96 Add option for AOD on charge only [2/2]
+0446e2a0ca update a few icons taken from http://materialdesignicons.com/
+41f4987c84 Use old mobile signal icons [2/2]
+53edd33fb1 Qs battery location and style [2/2]
+c5a12ce0c5 QS est Battery and percentage [2/2]
+b785e9b785 RR tools: Flashlight on incoming calls [3/3]
+5859e059c1 Battery: show battery temp on power summary
+536e1a77ff Settings: Fix crash when going back from battery
+55815a6ffc Settings: fuelgauge: add back battery level animation
+3c8d53de9d Settings: show battery times in summary
+edb2f145b4 Remove legal container from about device
+7a11a49c01 hardwareinfo: Hide hardware revision if empty
+
+   * vendor/rr
+d4a09e2c Vendor: bump to 8.5.7 (first public release)
+a20424b2 Update features
+
