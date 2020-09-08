@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   compile:
    docker:
-      - image: bryanhafidz/brynlab:latest
+      - image: bryanhafidz/bryan-docker:0x01
    steps:
       - run:
           command: |
