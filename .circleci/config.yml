@@ -13,7 +13,7 @@ jobs:
            mkdir ReloadedOs
            cd ReloadedOs
 workflows:
-  version: 2.1
+  version: 2.1 
   cooking:
     jobs:
       - compile
